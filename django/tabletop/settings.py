@@ -4,7 +4,6 @@
 # :copyright: (c) 2018 Will Hutcheson
 # :license: MIT (https://github.com/whutch/tabletop/blob/master/LICENSE.txt)
 
-
 import os
 
 
@@ -38,6 +37,10 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # Local apps
+    "tabletop.apps.dashboard",
+    "tabletop.apps.dmtools",
+    "tabletop.apps.worlds"
 ]
 
 MIDDLEWARE = [
